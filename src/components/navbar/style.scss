@@ -1,0 +1,24 @@
+.navbar{
+    height: 100px;
+    .wrapper{
+        max-width: 1280px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+
+    .social{
+        display: flex;
+        gap: 20px;
+    }
+    span{
+        font-weight: bold; 
+    }
+    img{
+        width: 25px;
+        height: 25px;
+        object-fit: cover;
+    }
+    }
+}
