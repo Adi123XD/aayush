@@ -23,11 +23,11 @@ const Links = () => {
             y:50,opacity:0
         }
     }
-    const items=["HomePage","Services","Portfolio","Contact","About"]
+    const sidebaritems=["HomePage","Services","Portfolio","Contact","About"]
   return (
     <motion.div className='links'
-    variants={variants}>{items.map((item)=>(
-        <motion.a href={`#${item}`} key={item} variants={itemVariants} whileHover={{scale:1.1}} whileTap={{scale:0.9}}>{item}</motion.a>
+    variants={variants}>{sidebaritems.map((sidebaritem)=>(
+        <motion.a href={`#${sidebaritem}`} key={sidebaritem} variants={itemVariants} whileHover={{scale:1.1}} whileTap={{scale:0.9}}>{sidebaritem}</motion.a>
     ))}
     </motion.div>
   )

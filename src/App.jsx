@@ -1,23 +1,25 @@
-import Test from './Test';
 import './app.scss'
+import Home from './components/Home';
+import Contact from './components/contact/Contact';
 import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
+import Pagenotfound from './components/pagenotfound/Pagenotfound';
 import Parallax from './components/parallax/Parallax';
+import Portfolio from './components/portfolio/Portfolio';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+
+
 const App = () => {
   return(
   <div>
-    <section id='HomePage'>
-      <Navbar/>
-      <Hero/>
-    </section>
-    <section id='Services'><Parallax type="services"/></section>
-    <section>Services</section>
-    <section id='Portfolio'><Parallax type="portfolio"/></section>
-    <section>Portfolio1</section>
-    <section>Portfolio2</section>
-    <section>Portfolio3</section>
-    <section id='Contact'>Contact</section>
-    {/* <Test/> */}
+    <Router>
+    <Routes>
+      <Route exact path ="/" element={<><Home/></>}/>
+      <Route exact path ="/notfound" element={<Pagenotfound/>}/>
+      <Route path="*" element={<Pagenotfound />} />
+    </Routes>
+    </Router>
   </div>
   )
 
