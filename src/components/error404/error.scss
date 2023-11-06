@@ -1,0 +1,20 @@
+.error{
+    text-align: center;
+    margin: 50px 0;
+    h2{
+        font-size: 48px;
+        margin-bottom: 20px;
+        
+    }
+    p{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    button{
+        padding: 12px;
+        font-size: 20px;
+        background-color: orange;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
