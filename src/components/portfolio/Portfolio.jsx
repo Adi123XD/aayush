@@ -34,7 +34,7 @@ const Portfolio = () => {
         title: "Waste Classification model",
         img: "https://www.rheumatologyadvisor.com/wp-content/uploads/sites/18/2019/03/artificialintelligenceg8866_1455488.jpg",
         desc: "Developed a waste classification model utilizing MobileNetV2 as the foundation, showcasing proficient deep learning capabilities. This model effectively categorizes waste objects into distinct groups, demonstrating a practical application of machine learning for environmental sustainability.",
-        code: ""
+        code: "https://drive.google.com/drive/folders/13OkaymtkOY_eZDh6OPp1VWb_StwmKMLD"
       },
       {
         id: 3,
