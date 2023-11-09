@@ -5,6 +5,7 @@ import Parallax from './parallax/Parallax'
 import Portfolio from './portfolio/Portfolio'
 import Contact from './contact/Contact'
 import Cursor from './cusror/Cursor'
+import Experience from './experience/Experience'
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
       <Hero/>
     </section>
     <section id='Services'><Parallax type="services"/></section>
-    <section>Services</section>
+    <section><Experience/></section>
     <section id='Portfolio'><Parallax type="portfolio"/></section>
     <Portfolio/>
     <section id='Contact'><Contact/></section>
