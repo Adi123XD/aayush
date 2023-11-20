@@ -61,7 +61,7 @@ const Hero = () => {
             Ambitious Cursious Adventurous 
             </motion.div>
             <div className="image-container">
-                <img src="aayush_pic.jpg" alt=",y pic" />
+                <img src="aayush_pic.png" alt=",y pic" />
             </div>
 
         </div>
