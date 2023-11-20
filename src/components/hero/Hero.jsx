@@ -50,9 +50,9 @@ const Hero = () => {
                         <motion.button variants={textvariants}
                         whileHover={{backgroundColor:'white', color: 'black'}}
                         whileTap={{backgroundColor:"transparent", color:"white",scale:0.9}}><a href='#Contact'>Contact Me</a></motion.button>
-                        <motion.button variants={textvariants}
+                        {/* <motion.button variants={textvariants}
                         whileHover={{backgroundColor:'white', color: 'black'}}
-                        whileTap={{backgroundColor:"transparent", color:"white",scale:0.9}}><a href={resume}>Resume</a></motion.button>
+                        whileTap={{backgroundColor:"transparent", color:"white",scale:0.9}}><a href={resume}>Resume</a></motion.button> */}
                     </motion.div>
                     <motion.img src="/scroll.png" alt="" variants={textvariants} animate='scrollbutton'/>
                 </motion.div>
