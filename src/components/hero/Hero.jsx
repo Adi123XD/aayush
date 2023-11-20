@@ -41,7 +41,7 @@ const Hero = () => {
         <div className='hero'>
             <div className="wrapper">
                 <motion.div className="textcontainer" variants={textvariants} initial="initial" animate="animate" >
-                    <motion.h2 variants={textvariants}>Adarsh Agarwal</motion.h2>
+                    <motion.h2 variants={textvariants}>Aayush Patel</motion.h2>
                     <motion.h1 variants={textvariants}>Web Developer and ML Engineer</motion.h1>
                     <motion.div className='buttons'variants={textvariants}>
                         <motion.button variants={textvariants}
@@ -61,7 +61,7 @@ const Hero = () => {
             Ambitious Cursious Adventurous 
             </motion.div>
             <div className="image-container">
-                <img src="aaaa.png" alt=",y pic" />
+                <img src="aayush_pic.jpg" alt=",y pic" />
             </div>
 
         </div>
